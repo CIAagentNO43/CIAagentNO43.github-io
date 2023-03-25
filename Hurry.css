@@ -206,8 +206,11 @@ sup {
 }
 
 .Review {
-  border: 600px solid rgba(20,40,80 0.0);
+  border: 3px solid rgba(20,40,80 0.0);
   overflow:scroll;
+  display: block;
+  width: 450px;
+  height: 400px;
 }
 
 .footerified {
@@ -225,10 +228,33 @@ sup {
   margin-right:auto;
   padding:2px;
   text-shadow: 0px 1px 0px white;
-  width:50px;
+  width:25px;
    background-image: linear-gradient(DarkSlateBlue,Indigo);
   background-image: -webkit-linear-gradient(DarkSlateBlue,Indigo);
 background-image: -moz-linear-gradient(DarkSlateBlue,Indigo);
 background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
  background-image: linear-gradient(DarkSlateBlue,Indigo);
+}
+
+.footerified:hover {
+  border-radius: 10px;
+  box-shadow:0 1px 1px lightGreen, inset 0 1px 0 honeyDew;
+  display:inline-block;
+  font-size:9px;
+  text-decoration: none;
+   background-color: rgba(124,0,252);
+  color:deepskyblue;
+  border: 1px solid purple;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:5px;
+  margin-right:5px;
+  padding:2px;
+  text-shadow: 0px 1px 0px white;
+  width:50px;
+   background-image: linear-gradient(SlateBlue,Indigo);
+  background-image: -webkit-linear-gradient(SlateBlue,Indigo);
+background-image: -moz-linear-gradient(SlateBlue,Indigo);
+background-image: -o-linear-gradient(SlateBlue,Indigo);
+ background-image: linear-gradient(SlateBlue,Indigo);
 }
