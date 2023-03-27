@@ -217,7 +217,7 @@ sup {
      border-radius: 10px;
   box-shadow:0 1px 1px lightGreen, inset 0 1px 0 honeyDew;
   display:inline-block;
-  font-size:9px;
+  font-size:6px;
   text-decoration: none;
    background-color: rgba(124,0,252);
   color:Darkviolet;
@@ -236,6 +236,16 @@ background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
  background-image: linear-gradient(DarkSlateBlue,Indigo);
 }
 
+.special {
+     background-image: linear-gradient(DarkSlateBlue,Indigo);
+  background-image: -webkit-linear-gradient(DarkSlateBlue,Indigo);
+background-image: -moz-linear-gradient(DarkSlateBlue,Indigo);
+background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
+ background-image: linear-gradient(DarkSlateBlue,Indigo);
+  background-clip: text;
+ text-fill-color: transparent;
+}
+
 .footerified:hover {
   border-radius: 10px;
   box-shadow:0 1px 1px lightGreen, inset 0 1px 0 honeyDew;
@@ -247,9 +257,9 @@ background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
   border: 1px solid purple;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left:5px;
-  margin-right:5px;
-  padding:2px;
+  margin-left:0px;
+  margin-right:0px;
+  padding:4px;
   text-shadow: 0px 1px 0px white;
   width:50px;
    background-image: linear-gradient(SlateBlue,Indigo);
@@ -257,4 +267,9 @@ background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
 background-image: -moz-linear-gradient(SlateBlue,Indigo);
 background-image: -o-linear-gradient(SlateBlue,Indigo);
  background-image: linear-gradient(SlateBlue,Indigo);
+}
+
+.right {
+  text-align: right;
+  
 }
