@@ -163,6 +163,84 @@ background-image: -o-linear-gradient(SlateBlue,Indigo);
  background-image: linear-gradient(SlateBlue,Indigo);
 }
 
+@media only screen and (max-width: 600px ) { 
+nav a {
+  border-radius: 5px;
+  box-shadow:0 1px 1px lightGreen, inset 0 1px 0 honeyDew;
+  display:block;
+  font-size:9px;
+  font-family:"times new roman"; 
+  text-decoration: none;
+   background-color: rgba(124,0,252);
+  color:Darkviolet;
+  border: 1px solid RebeccaPurple;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:5px;
+  text-shadow: 0px 1px 0px white;
+  width: 125px;
+   background-image: linear-gradient(DarkSlateBlue,Indigo);
+  background-image: -webkit-linear-gradient(DarkSlateBlue,Indigo);
+background-image: -moz-linear-gradient(DarkSlateBlue,Indigo);
+background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
+ background-image: linear-gradient(DarkSlateBlue,Indigo);
+}
+
+a {
+  font-family:"times new roman"; 
+  background-image: -webkit-linear-gradient(DarkSlateBlue,Indigo);
+background-image: -moz-linear-gradient(DarkSlateBlue,Indigo);
+background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
+ background-image: linear-gradient(DarkSlateBlue,Indigo);
+}
+
+article img {
+  float: left;
+}
+
+.for-now {
+position: absolute;
+}
+
+body {
+  width: 75%;
+  color: white;
+  border: 2px solid BlueViolet;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: "Gajraj One"
+  
+}
+
+nav a:hover {
+  box-shadow:0 1px 1px lightGreen, inset 0 1px 0 honeyDew;
+  border-radius: 20px;
+  display:inline-block;
+  font-size: 18px;
+  font-family:"times new roman"; 
+  text-decoration: none;
+   background-color: rgba(124,0,252);
+  color:DeepSkyBlue;
+  border: 1px solid RebeccaPurple;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:250px;
+  margin-right:5px;
+  padding:10px;
+  text-align: center;
+  text-shadow: 0px 1px 0px white;
+  width: 125px;
+   background-image: linear-gradient(Darkviolet,Indigo);
+  background-image: -webkit-linear-gradient(Darkviolet,Indigo);
+background-image: -moz-linear-gradient(Darkviolet,Indigo);
+background-image: -o-linear-gradient(Darkviolet,Indigo);
+ background-image: linear-gradient(Darkviolet,Indigo);
+}
+
+}
+
 #music-i-made {
   background-image: url(https://images.unsplash.com/photo-1516653980844-c68df1de5249?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
 }
@@ -275,7 +353,7 @@ background-image: -o-linear-gradient(SlateBlue,Indigo);
  background-image: linear-gradient(SlateBlue,Indigo);
 }
 
-.right {
-  text-align: right;
-  
+.inviseble {
+  text-decoration: none;
+  display: none;
 }
