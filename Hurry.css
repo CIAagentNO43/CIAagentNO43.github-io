@@ -195,6 +195,13 @@ background-image: -moz-linear-gradient(DarkSlateBlue,Indigo);
 background-image: -o-linear-gradient(DarkSlateBlue,Indigo);
  background-image: linear-gradient(DarkSlateBlue,Indigo);
 }
+  
+  aside {
+  background-color: rgba(0,0,0 0.2);
+  border: 2px groove BlueViolet;
+  border-radius: 15px;
+  position: fixed;
+  } 
 
 article img {
   float: left;
@@ -239,6 +246,10 @@ background-image: -o-linear-gradient(Darkviolet,Indigo);
  background-image: linear-gradient(Darkviolet,Indigo);
 }
 
+}
+
+span {
+  text-decoration: underline;
 }
 
 #music-i-made {
@@ -357,3 +368,5 @@ background-image: -o-linear-gradient(SlateBlue,Indigo);
   text-decoration: none;
   display: none;
 }
+
+/* make some rules for tables and figurews*/
