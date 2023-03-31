@@ -212,8 +212,8 @@ position: absolute;
 }
   
 sup img {
-  max-width: 10px;
-  max-height:10px;
+  max-width: 15px;
+  max-height:15px;
   border: 2px groove green;
   border-radius: 30px;
   }
